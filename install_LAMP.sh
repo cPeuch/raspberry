@@ -34,7 +34,7 @@ sudo apt-get dist-upgrade -y
 
 #Installation de LAMP + PHPMYADMIN
 
-sudo apt-get install apache2 php5 mysql-server php5-mysql libapache-mod -php5 phpmyadmin -y
+sudo apt-get install apache2 php5 mysql-server php5-mysql libapache2-mod-php5 phpmyadmin -y
 sudo ln -s /usr/share/phpmyadmin /var/www/phpmyadmin
 
 
